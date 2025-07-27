@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10sp"
+    android:orientation="vertical"
+    tools:context=".event_Add">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="15sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginBottom="15sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/add_ename_tv"
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5sp"
+            android:text="Event Name"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/add_ename_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="15sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginBottom="15sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/add_evenue_tv"
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5sp"
+            android:text="Event Venue"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/add_evenue_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="15sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginBottom="15sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/add_edate_tv"
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5sp"
+            android:text="Event Date"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/add_edate_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="date"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="15sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginBottom="15sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/add_duration_tv"
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5sp"
+            android:text="Duration"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/add_eduration_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="time"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="15sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginBottom="15sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/add_edisc_tv"
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5sp"
+            android:text="Description"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/add_edisc_et"
+            android:layout_width="wrap_content"
+            android:layout_height="90sp"
+            android:layout_marginLeft="10sp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/add_submit_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginBottom="10sp"
+        android:text="ADD Event"
+        android:textSize="18sp" />
+
+</LinearLayout>
